@@ -36,3 +36,69 @@
     transform: rotate(360deg);
   }
 }
+
+.ReactModal__Overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 100000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(60, 65, 98, 0.8);
+}
+
+.ReactModal__Content {
+  position: absolute;
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  margin: 4rem;
+  padding: 1rem;
+  background: white;
+}
+.work-content {
+  height: 9rem;
+}
+.work-img {
+  height: 18rem;
+}
+.work-img img {
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+.work-box:hover img {
+  transform: scale(1.1);
+}
+.carousel .slide img {
+
+  height: 60vh;
+  object-fit: contain;
+}
+
+.carousel .slide {
+  background-color: white;
+}
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+  background: #354674;
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background: rgb(53 70 116);
+}
+
+
+.ion-ios-plus-outline {
+  cursor: pointer;
+}
+
+.socials {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
